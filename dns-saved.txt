@@ -1,0 +1,1 @@
+    NameServer    REG_SZ    192.168.2.1 DHCP 

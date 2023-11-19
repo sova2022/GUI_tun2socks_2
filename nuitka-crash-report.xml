@@ -1,0 +1,66 @@
+<nuitka-compilation-report nuitka_version="1.8.3" nuitka_commercial_version="not installed" completion="error exit message (1)" exit_message="">
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${sys.prefix}\GUI_tun2socks_2.py">
+    <optimization-time pass="1" time="0.15" />
+    <optimization-time pass="2" time="0.02" />
+    <module_usages>
+      <module_usage name="site" finding="absolute" line="1" />
+      <module_usage name="PyQt5" finding="absolute" line="13" />
+      <module_usage name="PyQt5.QtCore" finding="relative" line="13" />
+      <module_usage name="PyQt5.QtGui" finding="relative" line="13" />
+      <module_usage name="PyQt5.QtWidgets" finding="relative" line="13" />
+      <module_usage name="elevate" finding="absolute" line="14" />
+      <module_usage name="elevate.elevate" finding="not-found" line="14" />
+      <module_usage name="ctypes" finding="absolute" line="15" />
+      <module_usage name="re" finding="absolute" line="16" />
+      <module_usage name="PyQt5.Qt" finding="absolute" line="17" />
+      <module_usage name="threading" finding="absolute" line="18" />
+      <module_usage name="sys" finding="built-in" line="19" />
+      <module_usage name="subprocess" finding="absolute" line="20" />
+      <module_usage name="time" finding="built-in" line="21" />
+      <module_usage name="io" finding="built-in" line="22" />
+      <module_usage name="requests" finding="absolute" line="23" />
+      <module_usage name="os" finding="built-in" line="24" />
+      <module_usage name="psutil" finding="absolute" line="25" />
+      <module_usage name="datetime" finding="absolute" line="26" />
+      <module_usage name="ntpath" finding="built-in" line="31" />
+      <module_usage name="ntpath" finding="built-in" line="32" />
+      <module_usage name="ntpath" finding="built-in" line="33" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="42651648" />
+    <memory_usage name="before_c_code_generation" value="44605440" />
+    <memory_usage name="before_running_scons" value="47767552" />
+  </performance>
+  <data_composer blob_size="10070" total="579">
+    <module_data filename="__bytecode.const" input_size="0" blob_name=".bytecode" blob_size="3" />
+    <module_data filename="__constants.const" input_size="2043" blob_name="" blob_size="878" />
+    <module_data filename="module.__main__.const" input_size="14479" blob_name="__main__" blob_size="9149" />
+  </data_composer>
+  <command_line>
+    <option value="--disable-console" />
+    <option value="--windows-icon-from-ico=icon.ico" />
+    <option value="--force-stdout-spec=FORCE_STDOUT.txt" />
+    <option value="GUI_tun2socks_2.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\Scripts\python.exe" python_flavor="CPython Official" python_version="3.11.4" os_name="Windows" arch_name="x86_64">
+    <search_path>
+      <path value="${sys.prefix}" />
+      <path value="${sys.real_prefix}\DLLs" />
+      <path value="${sys.real_prefix}\Lib" />
+      <path value="${sys.real_prefix}" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+    </search_path>
+  </python>
+</nuitka-compilation-report>
